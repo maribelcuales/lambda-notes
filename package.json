@@ -1,0 +1,32 @@
+{
+  "name": "lambda-notes",
+  "version": "1.0.0",
+  "description": "This week you will build a backend for a note taking app called \"Lambda Notes\".",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maribelcuales/lambda-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maribelcuales/lambda-notes/issues"
+  },
+  "homepage": "https://github.com/maribelcuales/lambda-notes#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "jest": "^23.6.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.3",
+    "supertest": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
